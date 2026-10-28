@@ -1,7 +1,14 @@
 # IndusSpine Releases
 
-This public repository is reserved for reviewed IndusSpine Linux release files.
+This public repository is the release destination for reviewed IndusSpine Linux files.
 
-No release artifacts are published yet. Release files will appear only after a controlled Linux build, source-free payload audit, runtime validation, and checksum generation.
+## Published release
+
+- [IndusSpine v0.3.4 Linux amd64 release](https://github.com/Timminater/IndusSpine-Releases/releases/tag/v0.3.4)
+- GHCR image: `ghcr.io/timminater/indusspine:v0.3.4`
+
+The release assets contain the Ubuntu deployment package, native Linux driver bundles, and SHA-256 checksums. The GHCR image is published, but registry pulls currently require authentication.
+
+Paid licensing and production entitlement activation are not claimed as operational. They require separately provisioned signed entitlement/truststore material and validated production endpoints.
 
 This repository contains no private source code, credentials, signing keys, or GitHub Actions workflows.
