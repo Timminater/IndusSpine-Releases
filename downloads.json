@@ -1,8 +1,110 @@
 {
   "schema": "indusspine-downloads-v1",
   "repository": "Timminater/IndusSpine-Releases",
-  "latest": "0.3.5",
+  "latest": "0.3.6",
   "releases": [
+    {
+      "version": "0.3.6",
+      "tag": "v0.3.6",
+      "published_at": "2026-10-30T17:46:27Z",
+      "channel": "stable",
+      "changelog": {
+        "nl": "changelogs/v0.3.6.nl.md",
+        "en": "changelogs/v0.3.6.en.md"
+      },
+      "downloads": [
+        {
+          "id": "ubuntu-amd64",
+          "kind": "docker",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadpakket Docker (Ubuntu/Linux amd64)",
+            "en": "Docker download kit (Ubuntu/Linux amd64)"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "indusspine-0.3.6-ubuntu-amd64-download-kit.tar.gz",
+          "sha256": "7e4a97b7d447bb9e7a439689740f03834e7ce80afb3d29e31e07df384fd73d8d"
+        },
+        {
+          "id": "modbus-tcp",
+          "kind": "driver",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Modbus TCP-driver",
+            "en": "Modbus TCP driver"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "modbus_tcp-0.3.3.indusdriver",
+          "sha256": "7cf5354670c9720b858fe1960fd2803b75feb1c905d6ac3c29f4a59ab6fa4993"
+        },
+        {
+          "id": "siemens-s7-classic",
+          "kind": "driver",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Siemens S7 Classic-driver",
+            "en": "Siemens S7 Classic driver"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "siemens_s7_classic-0.1.10.indusdriver",
+          "sha256": "a12c0857365617c079288246ee85ddedf6b3dd26bffafe5e7b87f0303de298b3"
+        },
+        {
+          "id": "siemens-s7-enhanced",
+          "kind": "driver",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Siemens S7 Enhanced-driver",
+            "en": "Siemens S7 Enhanced driver"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "siemens_s7_enhanced-0.1.10.indusdriver",
+          "sha256": "3239fceb32f7cfe7ea8ad4e1c2abc8d96ae5ad8336d715bf3ffe5d91174385ee"
+        },
+        {
+          "id": "tcp-receive",
+          "kind": "driver",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "TCP-ontvangstdriver",
+            "en": "TCP receive driver"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "tcp_receive-0.1.6.indusdriver",
+          "sha256": "1dcb1e291f50bd6ab62a700884cd664e444238be19aa75ea0a4214657cc143c8"
+        },
+        {
+          "id": "udp-receive",
+          "kind": "driver",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "UDP-ontvangstdriver",
+            "en": "UDP receive driver"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "udp_receive-0.1.5.indusdriver",
+          "sha256": "89d87ba1f60f5a595a011b767b611499745eff1c56429251f14823cafe0e12d2"
+        },
+        {
+          "id": "sha256-checksums",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "SHA-256-controlesommen",
+            "en": "SHA-256 checksums"
+          },
+          "asset": "SHA256SUMS.txt",
+          "sha256": "70d41e3d58b8efa5d770a66034a4441f848468b18ab550dca2599b0da85fca9b"
+        }
+      ]
+    },
     {
       "version": "0.3.5",
       "tag": "v0.3.5",
