@@ -1,6 +1,6 @@
 # Download catalog maintenance
 
-`downloads.json` is public display metadata, not the signed distribution/update feed or an authorization source. Website downloads resolve the exact asset in the published GitHub release for the matching tag. Do not put URLs, private application source, credentials, keys or binaries in this repository. Release notes are plain Markdown text, rendered as text by the website. There is no GitHub Actions publication workflow.
+`downloads.json` is public display metadata, not the signed distribution/update feed or an authorization source. Website downloads resolve the exact asset in the published GitHub release for the matching tag. Do not put URLs, private application source, credentials, keys or binaries in this repository. Release notes use Markdown. The website strips raw HTML and disallows unsafe links when rendering them. There is no GitHub Actions publication workflow.
 
 For each new release:
 
