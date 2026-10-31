@@ -1,0 +1,45 @@
+name: Synchronize download catalog
+
+on:
+  release:
+    types: [published, edited, deleted, unpublished]
+  workflow_dispatch:
+  # Reconcile missed token-generated events and assets added after publication.
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: download-catalog
+  cancel-in-progress: false
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the current catalog implementation
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - name: Test catalog synchronization
+        run: python3 -m unittest discover -s tests -v
+      - name: Synchronize release metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_catalog.py
+      - name: Publish changed catalog metadata
+        shell: bash
+        run: |
+          git add -- downloads.json changelogs .github/catalog-sync-state.json
+          if git diff --cached --quiet; then
+            echo "Catalog is already up to date."
+            exit 0
+          fi
+          git diff --cached --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update download catalog from published releases [skip ci]'
+          git push origin HEAD:main
