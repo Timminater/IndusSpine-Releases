@@ -3,6 +3,8 @@
 Public release information and the website download catalog for IndusSpine.
 
 - [Download catalog](downloads.json)
+- [Docker R12: pull-only Unraid + PostgreSQL](docs/unraid.md)
+- [Public container image](https://github.com/Timminater/IndusSpine-Releases/pkgs/container/indusspine)
 - [v0.3.6 release](https://github.com/Timminater/IndusSpine-Releases/releases/tag/v0.3.6)
 - [v0.3.5 release](https://github.com/Timminater/IndusSpine-Releases/releases/tag/v0.3.5)
 - [v0.3.4 release](https://github.com/Timminater/IndusSpine-Releases/releases/tag/v0.3.4)
@@ -13,3 +15,8 @@ The catalog automatically follows published GitHub releases through the [catalog
 The catalog is public display metadata and does not replace the signed distribution and update system.
 
 Version 0.3.6 uses a small Docker download kit. Run its `download.sh` to fetch and verify the parts of the complete compiled installation archive; for an offline PC transfer that complete archive after download. See the release notes and [Docker installation guide](https://www.indusspine.nl/documentation/docker).
+
+The newer Docker R12 preview uses `ghcr.io/timminater/indusspine` and pulls the
+prebuilt image directly. Its Unraid installer includes PostgreSQL and pins both
+images by digest. No build or GitHub login is needed on the customer's server.
+The older `indusspine-public` package remains available for compatibility.
