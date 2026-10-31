@@ -295,6 +295,80 @@
           "sha256": "af9048015cc0947a5d5a96edbff8c8306971be4e8e81a300e939152c4f4146c1"
         }
       ]
+    },
+    {
+      "version": "0.3.6-r8-windows-candidate-20261031",
+      "tag": "v0.3.6-r8-windows-candidate-20261031",
+      "published_at": "2026-10-31T05:43:29Z",
+      "channel": "preview",
+      "changelog": {
+        "nl": "changelogs/v0.3.6-r8-windows-candidate-20261031.nl.md",
+        "en": "changelogs/v0.3.6-r8-windows-candidate-20261031.en.md"
+      },
+      "downloads": [
+        {
+          "id": "windows-installer",
+          "kind": "installer",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Windows-installatieprogramma (amd64)",
+            "en": "Windows installer (amd64)"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "IndusSpine-0.3.6-Setup.exe",
+          "sha256": "e61fc69dec92fe625003f5c20d2dda1f9a9662cbf178f16b30fc4c5226656db3"
+        },
+        {
+          "id": "windows-portable",
+          "kind": "archive",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Draagbare Windows-versie (amd64)",
+            "en": "Portable Windows build (amd64)"
+          },
+          "compiled_protection": "Nuitka",
+          "asset": "IndusSpine-0.3.6-Portable.exe",
+          "sha256": "b7da8d2ea7ba2598898010f1dbe826c684ee723c92ff06d6e7c5c951979c2d2e"
+        },
+        {
+          "id": "r8-functional-probe-evidence",
+          "kind": "archive",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "R8 functionele probe-evidence",
+            "en": "R8 functional probe evidence"
+          },
+          "asset": "r8-functional-probe-evidence.json",
+          "sha256": "f6ffbfdf0c03c7d3a03d3ea40761ef88a933700356efff3105ee61a663813e7e"
+        },
+        {
+          "id": "r8-wrapper-build-report",
+          "kind": "archive",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "R8 wrapper-buildrapport",
+            "en": "R8 wrapper build report"
+          },
+          "asset": "r8-wrapper-build-report.json",
+          "sha256": "28978635bf9ae2490336a4028af467d42ab533584750fde58e2a2aefcbeb01dc"
+        },
+        {
+          "id": "sha256-checksums-r8",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "R8 SHA-256-controlesommen",
+            "en": "R8 SHA-256 checksums"
+          },
+          "asset": "SHA256SUMS.txt",
+          "sha256": "2f6f03d74ee580043f6a1fcd891f2e57660856625e8c2b137de163d8ed298f82"
+        }
+      ]
     }
   ]
 }
