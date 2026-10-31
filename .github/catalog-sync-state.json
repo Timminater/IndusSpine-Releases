@@ -1,6 +1,7 @@
 {
   "schema": "indusspine-catalog-automation-v1",
   "managed_versions": [
+    "0.3.6-docker-r12.20261031",
     "0.3.6-windows-candidate.12.20261031"
   ]
 }
