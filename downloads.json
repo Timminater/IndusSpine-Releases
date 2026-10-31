@@ -369,6 +369,78 @@
           "sha256": "2f6f03d74ee580043f6a1fcd891f2e57660856625e8c2b137de163d8ed298f82"
         }
       ]
+    },
+    {
+      "version": "0.3.6-windows-candidate.12.20261031",
+      "tag": "v0.3.6-windows-candidate.12.20261031",
+      "published_at": "2026-10-31T12:32:35Z",
+      "channel": "preview",
+      "changelog": {
+        "nl": "changelogs/v0.3.6-windows-candidate.12.20261031.nl.md",
+        "en": "changelogs/v0.3.6-windows-candidate.12.20261031.en.md"
+      },
+      "downloads": [
+        {
+          "id": "indusspine-0-3-6-windows-amd64-portable-exe-88e33190",
+          "kind": "archive",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: IndusSpine-0.3.6-windows-amd64-Portable.exe",
+            "en": "Download: IndusSpine-0.3.6-windows-amd64-Portable.exe"
+          },
+          "asset": "IndusSpine-0.3.6-windows-amd64-Portable.exe",
+          "sha256": "c67218fe9ed75ecc37e68553dfe4d51e2dee9caf19e932047520cf210c327f6a"
+        },
+        {
+          "id": "indusspine-0-3-6-windows-amd64-setup-exe-04b39c8d",
+          "kind": "installer",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Installatiebestand: IndusSpine-0.3.6-windows-amd64-Setup.exe",
+            "en": "Installer: IndusSpine-0.3.6-windows-amd64-Setup.exe"
+          },
+          "asset": "IndusSpine-0.3.6-windows-amd64-Setup.exe",
+          "sha256": "d55e9feee7b1d093cfd7101e3e4bf23c20fa0cb7c7499605eb123d91d151caa8"
+        },
+        {
+          "id": "r12-build-report-json-980c65b6",
+          "kind": "archive",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "Downloadbestand: r12-build-report.json",
+            "en": "Download: r12-build-report.json"
+          },
+          "asset": "r12-build-report.json",
+          "sha256": "06e79f29250b1b46b2490ddc8497374052e089c91360866323815e769ddf3321"
+        },
+        {
+          "id": "r12-functional-test-report-json-dae006a0",
+          "kind": "archive",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "Downloadbestand: r12-functional-test-report.json",
+            "en": "Download: r12-functional-test-report.json"
+          },
+          "asset": "r12-functional-test-report.json",
+          "sha256": "604b045c5409575d557baac6e93c06089fe1ec733a183c3a98dd54ef70aa3f01"
+        },
+        {
+          "id": "sha256sums-txt-d19ad569",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "SHA-256-controlesommen: SHA256SUMS.txt",
+            "en": "SHA-256 checksums: SHA256SUMS.txt"
+          },
+          "asset": "SHA256SUMS.txt",
+          "sha256": "a9b639cecd0690eada93335a923ae9fd19ee47825253412b3483d231be39da6d"
+        }
+      ]
     }
   ]
 }
