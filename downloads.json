@@ -513,6 +513,78 @@
           "sha256": "06353e596ad6ca45e9f99fda29e524be711c4f5846a03e70b6e7d75dbb82d89b"
         }
       ]
+    },
+    {
+      "version": "0.3.6-docker-r14.20261103",
+      "tag": "v0.3.6-docker-r14.20261103",
+      "published_at": "2026-11-03T01:54:13Z",
+      "channel": "preview",
+      "changelog": {
+        "nl": "changelogs/v0.3.6-docker-r14.20261103.nl.md",
+        "en": "changelogs/v0.3.6-docker-r14.20261103.en.md"
+      },
+      "downloads": [
+        {
+          "id": "indusspine-0-3-6-docker-r14-20261103-unraid-linux-amd64-tar-gz-637af604",
+          "kind": "docker",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadpakket Docker: indusspine-0.3.6-docker-r14.20261103-unraid-linux-amd64.tar.gz",
+            "en": "Docker download kit: indusspine-0.3.6-docker-r14.20261103-unraid-linux-amd64.tar.gz"
+          },
+          "asset": "indusspine-0.3.6-docker-r14.20261103-unraid-linux-amd64.tar.gz",
+          "sha256": "e2b9bc98552a7edf2eeb9b44cdd45d3871a44d5789fe5a505c9aa90c6a9941a3"
+        },
+        {
+          "id": "indusspine-0-3-6-docker-r14-20261103-unraid-linux-amd64-tar-gz-sha256-ad2ede92",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "SHA-256-controlesommen: indusspine-0.3.6-docker-r14.20261103-unraid-linux-amd64.tar.gz.sha256",
+            "en": "SHA-256 checksums: indusspine-0.3.6-docker-r14.20261103-unraid-linux-amd64.tar.gz.sha256"
+          },
+          "asset": "indusspine-0.3.6-docker-r14.20261103-unraid-linux-amd64.tar.gz.sha256",
+          "sha256": "cb9f7c13a35aec37087dd827923ccebef6c9bc79f798b1ce9b6dc6a2d398353e"
+        },
+        {
+          "id": "r14-linux-amd64-build-report-json-ad46abee",
+          "kind": "archive",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: r14-linux-amd64-build-report.json",
+            "en": "Download: r14-linux-amd64-build-report.json"
+          },
+          "asset": "r14-linux-amd64-build-report.json",
+          "sha256": "e6270e3d3c2e3999869a6606878c90be93ea9bff754977897654ab8ecd80c8e7"
+        },
+        {
+          "id": "r14-linux-amd64-functional-test-report-json-04852592",
+          "kind": "archive",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: r14-linux-amd64-functional-test-report.json",
+            "en": "Download: r14-linux-amd64-functional-test-report.json"
+          },
+          "asset": "r14-linux-amd64-functional-test-report.json",
+          "sha256": "8f8c2ffbfb911ba83d8ed0e23e94f16d5eb60adf1e22915dd5c40fa3f7c8f06b"
+        },
+        {
+          "id": "sha256sums-e6351d37",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "SHA-256-controlesommen: SHA256SUMS",
+            "en": "SHA-256 checksums: SHA256SUMS"
+          },
+          "asset": "SHA256SUMS",
+          "sha256": "093565a327fa86f407e6d1b95c725c3af40791af0ac76759de09166a29fe08d8"
+        }
+      ]
     }
   ]
 }
