@@ -1,7 +1,7 @@
 {
   "schema": "indusspine-downloads-v1",
   "repository": "Timminater/IndusSpine-Releases",
-  "latest": "0.3.6",
+  "latest": "0.3.11",
   "releases": [
     {
       "version": "0.3.6",
@@ -583,6 +583,66 @@
           },
           "asset": "SHA256SUMS",
           "sha256": "093565a327fa86f407e6d1b95c725c3af40791af0ac76759de09166a29fe08d8"
+        }
+      ]
+    },
+    {
+      "version": "0.3.11",
+      "tag": "v0.3.11",
+      "published_at": "2026-11-07T16:11:45Z",
+      "channel": "stable",
+      "changelog": {
+        "nl": "changelogs/v0.3.11.nl.md",
+        "en": "changelogs/v0.3.11.en.md"
+      },
+      "downloads": [
+        {
+          "id": "indusspine-0-3-11-linux-amd64-image-tar-gz-3e6ec9fc",
+          "kind": "archive",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.11-linux-amd64-image.tar.gz",
+            "en": "Download: indusspine-0.3.11-linux-amd64-image.tar.gz"
+          },
+          "asset": "indusspine-0.3.11-linux-amd64-image.tar.gz",
+          "sha256": "00805a0a69735a3c1caf6b03ae2d9d8b86b86a45f4a53c383db008a5b9ab142f"
+        },
+        {
+          "id": "indusspine-0-3-11-linux-amd64-tar-gz-3e56056a",
+          "kind": "archive",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.11-linux-amd64.tar.gz",
+            "en": "Download: indusspine-0.3.11-linux-amd64.tar.gz"
+          },
+          "asset": "indusspine-0.3.11-linux-amd64.tar.gz",
+          "sha256": "f2bd75ddb88e473baf2f3784fa794d17dccb4517034eb5689c8299c19ecb1eb5"
+        },
+        {
+          "id": "indusspine-0-3-11-windows-amd64-zip-1eeb8447",
+          "kind": "archive",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.11-windows-amd64.zip",
+            "en": "Download: indusspine-0.3.11-windows-amd64.zip"
+          },
+          "asset": "indusspine-0.3.11-windows-amd64.zip",
+          "sha256": "39d524c2509b0459c3dacccfee48867c4e2cdd5f5f8278abe9732bbf4d34507c"
+        },
+        {
+          "id": "sha256sums-txt-d19ad569",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "SHA-256-controlesommen: SHA256SUMS.txt",
+            "en": "SHA-256 checksums: SHA256SUMS.txt"
+          },
+          "asset": "SHA256SUMS.txt",
+          "sha256": "4e91ab7b963ae2f4c2773c5cc9ceb7967fe5e90c5dabbef6c82bcccd8cdde354"
         }
       ]
     }
