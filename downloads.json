@@ -1,7 +1,7 @@
 {
   "schema": "indusspine-downloads-v1",
   "repository": "Timminater/IndusSpine-Releases",
-  "latest": "0.3.11",
+  "latest": "0.3.12",
   "releases": [
     {
       "version": "0.3.6",
@@ -643,6 +643,78 @@
           },
           "asset": "SHA256SUMS.txt",
           "sha256": "4e91ab7b963ae2f4c2773c5cc9ceb7967fe5e90c5dabbef6c82bcccd8cdde354"
+        }
+      ]
+    },
+    {
+      "version": "0.3.12",
+      "tag": "v0.3.12",
+      "published_at": "2026-11-08T17:43:36Z",
+      "channel": "stable",
+      "changelog": {
+        "nl": "changelogs/v0.3.12.nl.md",
+        "en": "changelogs/v0.3.12.en.md"
+      },
+      "downloads": [
+        {
+          "id": "indusspine-0-3-12-compose-tar-gz-c79e9da4",
+          "kind": "archive",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.12-compose.tar.gz",
+            "en": "Download: indusspine-0.3.12-compose.tar.gz"
+          },
+          "asset": "indusspine-0.3.12-compose.tar.gz",
+          "sha256": "3c392c30ebd051e07e38144edd3955bc44c0c7911d8107bcce8aa23fd26110a2"
+        },
+        {
+          "id": "indusspine-0-3-12-linux-amd64-image-tar-gz-1aa766b8",
+          "kind": "archive",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.12-linux-amd64-image.tar.gz",
+            "en": "Download: indusspine-0.3.12-linux-amd64-image.tar.gz"
+          },
+          "asset": "indusspine-0.3.12-linux-amd64-image.tar.gz",
+          "sha256": "0d611fabb04875a8b3b0d4e7c4f301375f481b676422d068da10b837425e7867"
+        },
+        {
+          "id": "indusspine-0-3-12-linux-amd64-tar-gz-0e1f5a1b",
+          "kind": "archive",
+          "platform": "linux",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.12-linux-amd64.tar.gz",
+            "en": "Download: indusspine-0.3.12-linux-amd64.tar.gz"
+          },
+          "asset": "indusspine-0.3.12-linux-amd64.tar.gz",
+          "sha256": "26052d5bd9f3e5affe4b4148d61e4c11766cd6854a4d3591278cc02a22414c80"
+        },
+        {
+          "id": "indusspine-0-3-12-windows-amd64-zip-387384f7",
+          "kind": "archive",
+          "platform": "windows",
+          "architecture": "amd64",
+          "label": {
+            "nl": "Downloadbestand: indusspine-0.3.12-windows-amd64.zip",
+            "en": "Download: indusspine-0.3.12-windows-amd64.zip"
+          },
+          "asset": "indusspine-0.3.12-windows-amd64.zip",
+          "sha256": "b5423c9370c8991ed073ef201b525157a20122db2c35924d3fd8f6d3342cc3cb"
+        },
+        {
+          "id": "sha256sums-txt-d19ad569",
+          "kind": "checksums",
+          "platform": "all",
+          "architecture": "all",
+          "label": {
+            "nl": "SHA-256-controlesommen: SHA256SUMS.txt",
+            "en": "SHA-256 checksums: SHA256SUMS.txt"
+          },
+          "asset": "SHA256SUMS.txt",
+          "sha256": "954b6346b578bb7fc6479df54a357b9f75436c1e16e41580a307ccfda1bc6c6d"
         }
       ]
     }
